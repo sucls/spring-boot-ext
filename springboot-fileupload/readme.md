@@ -19,4 +19,8 @@ spring-boot version 1.5.*.RELEASE
     spring.http.multipart.enabled=false + Servlet3自己处理
 
 
-
+扩展：
+ 1、通过适配器模式实现多存储策略
+ 2、通过webupload组件实现文件大文件的分片上传与断点续传
+ 3、通过http range实现文件断点下载
+ 4、通过appache commons实现文件上传进度监听
